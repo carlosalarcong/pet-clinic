@@ -97,7 +97,5 @@ pipeline {
                 sh "./deploy.sh prod $TAG_NAME"
             }
         }
-        
-        
     }
 }
