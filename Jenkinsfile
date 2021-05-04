@@ -75,7 +75,7 @@ pipeline {
                 sh "chmod +x ui-tests.sh"
                 sh "./ui-tests.sh"
             }
-        }
+        } 
         
     }
 }
